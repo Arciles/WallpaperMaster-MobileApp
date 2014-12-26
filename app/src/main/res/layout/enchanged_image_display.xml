@@ -11,4 +11,17 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:scaleType="fitXY" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Duvar Kağıdı Yap"
+        android:id="@+id/btnSetWallpaper"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#11271c"
+        android:alpha="0.70"/>
 </RelativeLayout>

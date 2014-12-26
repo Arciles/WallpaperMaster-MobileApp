@@ -6,8 +6,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import org.json.JSONException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import Adapters.GridViewAdapter;
+import Adapters.JsonReader;
 
 /**
  * Created by esattahaibis on 26.12.2014.
@@ -15,18 +19,50 @@ import Adapters.GridViewAdapter;
 public class DisplayPage extends Activity {
 
     GridView view ;
+    ArrayList<HashMap<String, String>>list = new ArrayList<HashMap<String, String>>();
+    ArrayList<String> names;
     ArrayList<String> urls;
+    JsonReader reader;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.image_display);
         view = (GridView) findViewById(R.id.gridView);
         urls = new ArrayList<String>();
-        urls.add("http://wallpaperscraft.com/image/83882/1080x1920.jpg");
-        urls.add("https://www.idevice.ro/wp-content/uploads/2014/10/Nissan-GTR-Sport-Car-Rain-iPhone-6-Plus-HD-Wallpaper.jpg");
-        urls.add("http://www.umnet.com/pic/diy/screensaver/fd8b491b-0e12.jpg");
-        urls.add("http://www.wallpaperawesome.com/wallpapers-awesome/wallpapers-samsung-galaxy-note-3-awesome/wallpaper-note-3-full-hd-1080-1920-supercar-blue.jpg");
-        urls.add("http://wallpaperscraft.com/image/94056/1080x1920.jpg");
+        names = new ArrayList<String>();
+        reader = new JsonReader(DisplayPage.this);
+
+
+        /*
+        * Assets klasorunde bulunan json formatindaki txt dosyalarini okumak icin jsonreader classini kullaniyoruz
+        * */
+        try {
+            list = reader.JsonParser("cars");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+
+        Iterator myVeryOwnIterator;
+
+        for(int i = 0 ; i < list.size() ; i++)
+        {
+
+            myVeryOwnIterator = list.get(i).keySet().iterator();
+            int count = 0;
+            while(myVeryOwnIterator.hasNext()) {
+/*
+*    Listten aldimiz verileri ArrayListin icine basıyoruz iterasyonlardan ilki url yi verirken ikinci iterasyon ise resmin adini getirmekte
+*/
+                String key=(String)myVeryOwnIterator.next();
+                String value =list.get(i).get(key).toString();
+                if (count == 0 )
+                    urls.add(value);
+                else
+                    names.add(value);
+                count++;
+            }
+        }
         GridViewAdapter adapter = new GridViewAdapter(DisplayPage.this,urls);
         view.setAdapter(adapter);
         view.setOnItemClickListener(myOnClickListener());
@@ -40,6 +76,7 @@ public class DisplayPage extends Activity {
            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                Intent start = new Intent(DisplayPage.this,EnchangedDisplayPage.class);
                start.putExtra("URL",urls.get(position));
+               start.putExtra("NAME",names.get(position));
                startActivity(start);
            }
        };
