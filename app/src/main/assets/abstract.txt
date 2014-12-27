@@ -1,0 +1,49 @@
+{
+  "URLs": [
+  {
+    "name" : "Sarmal",
+    "url" : "http://wallpaperscraft.com/image/96915/1080x1920.jpg" },
+    {
+    "name" : "Altın Yıldızlar",
+    "url" : "http://wallpaperscraft.com/image/73368/1080x1920.jpg"},
+    {
+    "name" : "Renkli Alev",
+    "url" : "http://wallpaperscraft.com/image/77137/1080x1920.jpg"},
+    {
+    "name" : "Su Kırılımı",
+    "url" : "http://wallpaperscraft.com/image/76323/1080x1920.jpg"},
+    {
+    "name" : "Göz",
+    "url" : "http://wallpaperscraft.com/image/98580/1080x1920.jpg"},
+    {
+    "name" : "Işın Aracı",
+    "url" : "http://wallpaperscraft.com/image/83478/1080x1920.jpg"},
+    {
+    "name" : "Derin Kız",
+    "url" : "http://wallpaperscraft.com/image/96407/1080x1920.jpg"},
+    {
+    "name" : "Renkli Dumanlar",
+    "url" : "http://wallpaperscraft.com/image/95969/1080x1920.jpg"},
+    {
+    "name" : "Siyah Beyaz",
+    "url" : "http://wallpaperscraft.com/image/76353/1080x1920.jpg"},
+    {
+    "name" : "Ye�il",
+    "url" : "http://wallpaperscraft.com/image/76300/1080x1920.jpg"},
+    {
+    "name" : "Derin Daire",
+    "url" : "http://wallpaperscraft.com/image/81400/1080x1920.jpg"},
+    {
+    "name" : "K�re",
+    "url" : "http://wallpaperscraft.com/image/81469/1080x1920.jpg"},
+    {
+    "name" : "Kuzey Işıkları",
+    "url" : "http://wallpaperscraft.com/image/73483/1080x1920.jpg"},
+    {
+    "name" : "Iışk Saçakları",
+    "url" : "http://wallpaperscraft.com/image/77224/1080x1920.jpg"},
+    {
+    "name" : "Islak Cam",
+    "url" : "http://wallpaperscraft.com/image/76380/1080x1920.jpg"}
+  ]
+}

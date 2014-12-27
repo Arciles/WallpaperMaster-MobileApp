@@ -97,7 +97,6 @@ public class GridViewAdapter extends BaseAdapter {
                     public void onLoadingStarted(String imageUri, View view) {
                         holder.progressBar.setProgress(0);
                         holder.progressBar.setVisibility(View.VISIBLE);
-                        holder.progressBar.getProgressDrawable().setColorFilter(Color.GRAY, PorterDuff.Mode.SRC_IN);
                     }
 
                     @Override

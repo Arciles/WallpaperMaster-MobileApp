@@ -8,11 +8,157 @@
 
 
     <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Arabalar"
+        android:id="@+id/btnArabalar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="3 Boyutlu"
+        android:id="@+id/btn3boyut"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/btnArabalar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Hayvanlar"
+        android:id="@+id/btnHayvanlar"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/btn3boyut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Şehirler"
+        android:id="@+id/btnSehirler"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/btnSoyut"
+        android:layout_toLeftOf="@+id/btnFilmler"
+        android:layout_toStartOf="@+id/btnFilmler" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Soyut"
+        android:id="@+id/btnSoyut"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnFilmler"
+        android:layout_toStartOf="@+id/btnFilmler" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text=" Fantazi"
+        android:id="@+id/btnFantazi"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/btnSoyut"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Çiçekler"
+        android:id="@+id/btnCicekler"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/btnFantazi"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Oyunlar"
+        android:id="@+id/btnOyunlar"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/btnCicekler"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Macro Çekimler"
+        android:id="@+id/btnMacro"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="giris"
-        android:id="@+id/btnSekme"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="193dp" />
+        android:text="Fimler"
+        android:id="@+id/btnFilmler"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_above="@+id/btn3boyut"
+        android:layout_toRightOf="@+id/btnArabalar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Müzik"
+        android:id="@+id/btnMuzik"
+        android:layout_alignTop="@+id/btn3boyut"
+        android:layout_alignRight="@+id/btnFilmler"
+        android:layout_alignEnd="@+id/btnFilmler"
+        android:layout_alignLeft="@+id/btnFilmler"
+        android:layout_alignStart="@+id/btnFilmler" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğa"
+        android:id="@+id/btnDoga"
+        android:layout_alignTop="@+id/btnHayvanlar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/btnMuzik"
+        android:layout_alignStart="@+id/btnMuzik" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uzay"
+        android:id="@+id/btnUzay"
+        android:layout_alignTop="@+id/btnSehirler"
+        android:layout_alignRight="@+id/btnDoga"
+        android:layout_alignEnd="@+id/btnDoga"
+        android:layout_alignLeft="@+id/btnDoga"
+        android:layout_alignStart="@+id/btnDoga" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaplama"
+        android:id="@+id/btnKaplama"
+        android:layout_alignTop="@+id/btnSoyut"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/btnUzay"
+        android:layout_alignStart="@+id/btnUzay" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diziler"
+        android:id="@+id/btnDiziler"
+        android:layout_alignTop="@+id/btnFantazi"
+        android:layout_alignRight="@+id/btnKaplama"
+        android:layout_alignEnd="@+id/btnKaplama"
+        android:layout_alignLeft="@+id/btnKaplama"
+        android:layout_alignStart="@+id/btnKaplama" />
+
 </RelativeLayout>

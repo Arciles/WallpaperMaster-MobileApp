@@ -1,0 +1,40 @@
+{
+  "URLs": [
+  {
+    "name" : "AC/DC",
+    "url" : "http://www.hdgalaxynote3wallpapers.com/wp-content/uploads/Music/Music%20Galaxy%20Note%203%20Wallpapers%2013.jpg"},
+    {
+    "name" : "The Beatles",
+    "url" : "http://www.hdiphone6pluswallpaper.com/wp-content/uploads/Music/Music%20iPhone%206%20Plus%20Wallpaper%2095.jpg"},
+    {
+    "name" : "Slash",
+    "url" : "http://www.samsunggalaxys5wallpaper.com/wp-content/uploads/Music/Music%20Samsung%20Galaxy%20S5%20Wallpapers%2031.jpg"},
+    {
+    "name" : "Micheal Jackson",
+    "url" : "http://www.wallpapersforiphone6plus.com/wp-content/uploads/Music/Music%20Wallpapers%20for%20iPhone%206%20Plus%2071.jpg"},
+    {
+    "name" : "Keman",
+    "url" : "http://www.lgg2wallpapers.com/wp-content/uploads/Music/Music%20LG%20G2%20Wallpapers%20HD%2040.jpg"},
+    {
+    "name" : "Muse",
+    "url" : "http://wallpaperscraft.com/image/94193/1080x1920.jpg"},
+    {
+    "name" : "Daft Punk",
+    "url" : "http://www.hdgalaxynote3wallpapers.com/wp-content/uploads/Music/Music%20Galaxy%20Note%203%20Wallpapers%2007.jpg"},
+    {
+    "name" : "Linkin Park",
+    "url" : "http://www.hdgalaxynote3wallpapers.com/wp-content/uploads/Music/Music%20Galaxy%20Note%203%20Wallpapers%2014.jpg"},
+    {
+    "name" : "Kuru Kafa",
+    "url" : "http://www.lgg2wallpapers.com/wp-content/uploads/Music/Music%20LG%20G2%20Wallpapers%20HD%2004.jpg"},
+    {
+    "name" : "Beyin",
+    "url" : "http://wallpaperscraft.com/image/93494/1080x1920.jpg"},
+    {
+    "name" : "Gitar",
+    "url" : "http://www.wallpapersforgalaxys5.com/wp-content/uploads/Music/Guitar%20-2%20Wallpapers%20for%20Galaxy%20S5.jpg"},
+    {
+    "name" : "Bob Marley",
+    "url" : "http://www.hdgalaxynote3wallpapers.com/wp-content/uploads/Music/Singer%2006%20Galaxy%20Note%203%20Wallpapers.jpg"}
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "URLs": [
+  {
+    "name" : "İstanbul",
+    "url" : "http://wallpaperscraft.com/image/96520/1080x1920.jpg" },
+    {
+    "name" : "Prag",
+    "url" : "http://wallpaperscraft.com/image/94209/1080x1920.jpg"},
+    {
+    "name" : "Zürih",
+    "url" : "http://wallpaperscraft.com/image/97247/1080x1920.jpg"},
+    {
+    "name" : "Londra",
+    "url" : "http://wallpaperscraft.com/image/96581/1080x1920.jpg"},
+    {
+    "name" : "Dubai",
+    "url" : "http://wallpaperscraft.com/image/96720/1080x1920.jpg"},
+    {
+    "name" : "Tokyo",
+    "url" : "http://wallpaperscraft.com/image/98445/1080x1920.jpg"},
+    {
+    "name" : "New York",
+    "url" : "http://wallpaperscraft.com/image/58978/1080x1920.jpg"},
+    {
+    "name" : "Moskova",
+    "url" : "http://wallpaperscraft.com/image/58859/1080x1920.jpg"},
+    {
+    "name" : "Münih",
+    "url" : "http://wallpaperscraft.com/image/98059/1080x1920.jpg"},
+    {
+    "name" : "Venedik",
+    "url" : "http://wallpaperscraft.com/image/59059/1080x1920.jpg"},
+    {
+    "name" : "Toronto",
+    "url" : "http://wallpaperscraft.com/image/58869/1080x1920.jpg"},
+    {
+    "name" : "Gent",
+    "url" : "http://wallpaperscraft.com/image/58832/1080x1920.jpg"},
+    {
+    "name" : "Regensburg",
+    "url" : "http://wallpaperscraft.com/image/79266/1080x1920.jpg"},
+    {
+    "name" : "Engelberg",
+    "url" : "http://wallpaperscraft.com/image/76130/1080x1920.jpg"},
+    {
+    "name" : "Los Angeles",
+    "url" : "http://wallpaperscraft.com/image/59184/1080x1920.jpg"},
+    {
+    "name" : "Hong Kong",
+    "url" : "http://wallpaperscraft.com/image/58330/1080x1920.jpg"}	
+  ]
+}

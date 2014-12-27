@@ -23,6 +23,8 @@ public class DisplayPage extends Activity {
     ArrayList<String> names;
     ArrayList<String> urls;
     JsonReader reader;
+    String dosyaIsmi;
+    Intent myIntent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,12 +34,15 @@ public class DisplayPage extends Activity {
         names = new ArrayList<String>();
         reader = new JsonReader(DisplayPage.this);
 
-
         /*
         * Assets klasorunde bulunan json formatindaki txt dosyalarini okumak icin jsonreader classini kullaniyoruz
         * */
+        myIntent = getIntent();
+
+        dosyaIsmi = myIntent.getStringExtra("name");
+
         try {
-            list = reader.JsonParser("cars");
+            list = reader.JsonParser(dosyaIsmi);
         } catch (JSONException e) {
             e.printStackTrace();
         }
