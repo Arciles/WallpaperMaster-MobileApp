@@ -52,5 +52,5 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentBottom="false"
         android:gravity="center"
-        android:text="ÇŞÇŞÇ" />
+        android:text="Resim Adi" />
 </RelativeLayout>
