@@ -17,6 +17,7 @@ import java.net.HttpURLConnection;
 /**
  * Created by esattahaibis on 27.12.2014.
  */
+
 public class ImageWriteRead {
 
     public static String saveToInternalStorage(Bitmap bitmapImage , Context c ,String name){

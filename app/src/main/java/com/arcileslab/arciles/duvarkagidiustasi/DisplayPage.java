@@ -3,6 +3,7 @@ package com.arcileslab.arciles.duvarkagidiustasi;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -16,6 +17,7 @@ import Adapters.JsonReader;
 /**
  * Created by esattahaibis on 26.12.2014.
  */
+
 public class DisplayPage extends Activity {
 
     GridView view ;
@@ -59,13 +61,25 @@ public class DisplayPage extends Activity {
 /*
 *    Listten aldimiz verileri ArrayListin icine basıyoruz iterasyonlardan ilki url yi verirken ikinci iterasyon ise resmin adini getirmekte
 */
-                String key=(String)myVeryOwnIterator.next();
-                String value =list.get(i).get(key).toString();
-                if (count == 0 )
-                    urls.add(value);
-                else
-                    names.add(value);
-                count++;
+                int SDK_INT = android.os.Build.VERSION.SDK_INT;
+                if (SDK_INT > 19 ) {
+                    String key=(String)myVeryOwnIterator.next();
+                    String value =list.get(i).get(key).toString();
+                    if (count == 0 )
+                        names.add(value);
+                    else
+                        urls.add(value);
+                    count++;
+                } else {
+                    String key=(String)myVeryOwnIterator.next();
+                    String value =list.get(i).get(key).toString();
+                    if (count == 0 )
+                        urls.add(value);
+                    else
+                        names.add(value);
+                    count++;
+                }
+
             }
         }
         GridViewAdapter adapter = new GridViewAdapter(DisplayPage.this,urls);
