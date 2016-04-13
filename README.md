@@ -1,10 +1,10 @@
 Duvarkagidi Ustasi
 =================
 
-Android cihazlar için duvar kağıdı seçme programı
+Wallpaper utility application for Android Devices.
 
 
-Projeden bazı ekran görüntüleri :
+Some Screen shots fom Project :
 
 ![alt tag](http://i.imgur.com/scjrsPW.jpg)
 
